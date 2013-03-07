@@ -17,8 +17,9 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-enum sData
+enum Data
 {
+    //Encounters
     DATA_HALFUS,
     DATA_THERALION_ANA_VALIONA,
     DATA_ASCENDANT_COUNCIL,
@@ -34,8 +35,9 @@ enum sData
     DATA_RESET_DRAGON
 };
 
-enum sCreature
-{
+enum Creatures
+{   
+    //Halfus Mobs
     NPC_STORM_RIDER            = 44650,
     NPC_THE_TIME_WARDEN        = 44797,
     NPC_THE_SLATE_DRAGON       = 44652,

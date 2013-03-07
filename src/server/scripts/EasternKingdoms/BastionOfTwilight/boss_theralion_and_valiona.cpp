@@ -20,6 +20,23 @@
 #include "ScriptPCH.h"
 #include "bastion_of_twilight.h"
 
+enum Spells
+{
+    SPELL_BERSERK                   = 47008,
+	SPELL_TWILIGHT_SHIFT1           = 86360,
+	SPELL_TWILIGHT_SHIFT2           = 93051,
+	//Theralion
+	SPELL_DAZZLING_DESTRUCTION      = 86408,
+	SPELL_ENGULFING_MAGIC           = 86622,
+	SPELL_FABULOUS_FLAMES           = 86505,
+	SPELL_TWILIGHT_BLAST            = 86369,
+	//Valiona
+	SPELL_BLACKOUT                  = 86788,
+    SPELL_DEEP_BREATH               = 86059,
+    SPELL_DEVOURING_FLAMES          = 86840,
+    SPELL_TWILIGHT_METEORITE 	    = 86013
+};
+
 class boss_valiona : public CreatureScript
 {
 public:
